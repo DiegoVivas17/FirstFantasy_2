@@ -16,6 +16,10 @@
             <ComboBoxItem Content="Rouge" />
             <ComboBoxItem Content="Wizard" />
         </ComboBox>
+        <ComboBox Name="CboxArmas" HorizontalAlignment="Left" Height="25" Margin="133,258,0,0" VerticalAlignment="Top" Width="112">
+            <ComboBoxItem Content="Axe"/>
+            <ComboBoxItem Content="Sword"/>
+        </ComboBox>
 
     </Grid>
 </Window>

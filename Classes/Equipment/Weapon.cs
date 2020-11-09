@@ -12,11 +12,7 @@ namespace FirstFantasy.Classes.Equipment
             return "This is a weapon";
         }
 
-        public override string Attack()
-        {
-            int a = new Random().Next(0, 9);
-            string b = " ";
-            return b + a;
-        } 
+        public abstract int Attack();
+
     }
 }

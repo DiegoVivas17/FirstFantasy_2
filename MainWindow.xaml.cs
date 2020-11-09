@@ -30,7 +30,7 @@ namespace FirstFantasy
 
         private void BtnCreate_Click(object sender, RoutedEventArgs e)
         {
-            // String option = CboxCharacter.Text;
+            String option = CboxCharacter.Text;
 
             List<IDescribable> objectList = new List<IDescribable>();
             objectList.Add(new Axe());
@@ -85,7 +85,6 @@ namespace FirstFantasy
 
                 TxtOutput.Text = myCharacter.Taunt();
 
-                ((Wizard)myCharacter).CastSpell();
 
             }
 
@@ -93,5 +92,7 @@ namespace FirstFantasy
 
 
         }
+
+
     }
 }
